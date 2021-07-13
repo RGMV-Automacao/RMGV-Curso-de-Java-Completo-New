@@ -8,6 +8,7 @@ import java.text.DecimalFormat;
 public class Temperatura {
 	public static void main(String[] args) {
 
+		
 		// Pacote de Formatação de Saida de Valores.
 		// String formato = "R$ #,##0.00";
 		String formato = "0.00";
@@ -20,7 +21,7 @@ public class Temperatura {
 		double celsius = (fahrenheit - AJUSTE) * FATOR;
 		System.out.println("O Resultado é = " + d.format(celsius) + "°C");
 
-		fahrenheit = 150;
+		fahrenheit = 0;
 		celsius = (fahrenheit - AJUSTE) * FATOR;
 		System.out.println("O Resultado é = " + d.format(celsius) + "°C");
 	}
